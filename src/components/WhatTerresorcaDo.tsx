@@ -45,7 +45,7 @@ export const WhatTerresorcaDo = () => {
 
       
       </div>
-      <div className=" mx-[1rem] md:mx-[20rem] grid grid-cols-1 mr-[2rem] sm:grid-cols-2 lg:grid-cols-3 justify-center gap-8">
+      <div className=" mx-[1.2rem] md:mx-[14rem] grid grid-cols-1 mr-[2rem] sm:grid-cols-2 md:grid-cols-3 justify-center gap-8">
         {services.map((service, key) => (
           <div className="w-[20rem] "  key={key}>
             <BackgroundGradient className="rounded-[22px] max-w-sm p-4 h-[14rem] sm:p-10 bg-white dark:bg-zinc-900">

@@ -24,7 +24,7 @@ export const Contact = () => {
 
   return (
 
-    <section id='contact'>
+    
 
 
 
@@ -35,6 +35,8 @@ export const Contact = () => {
         <h1 className="relative z-10 mb-8 text-3xl md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b text-white text-center font-sans font-bold">
           Connect with Us
         </h1>
+        
+        <div>
         
         
         <form onSubmit={handleSubmit} >
@@ -62,6 +64,6 @@ export const Contact = () => {
       {/* <BackgroundBeams /> */}
     </div>
 
-    </section>
+    </div>
   );
 };

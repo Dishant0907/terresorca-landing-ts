@@ -10,8 +10,8 @@ const testimonials = [
     
     {
       quote: "Partnering with Terresorca was a game-changer for our business. Their innovative strategies and unwavering support propelled us to new heights. Since joining forces, our sales have seen a remarkable surge, exceeding all expectations.",
-      name: "Ankit Singh",
-      title: "Founder at coverwala",
+      name: "Sanjay Singh",
+      title: "Founder at TechOrca",
     },
     
   ];

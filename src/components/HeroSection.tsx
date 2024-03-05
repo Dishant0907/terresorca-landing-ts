@@ -6,6 +6,7 @@ import Link from "next/link"
 import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
  
+const phoneNumber ="+918744048768"
 
 const words = [
   {
@@ -79,7 +80,7 @@ export const HeroSection = () => {
 
 
       </div>
-      <Link className="mt-[5rem]" href={"#contact"}>
+      <Link className="mt-[5rem]" href={`tel:${phoneNumber}`}>
         <Button
           borderRadius="1.75rem"
           className="bg-white  dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
