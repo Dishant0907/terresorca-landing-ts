@@ -6,7 +6,7 @@ import { Testimonial } from "@/components/Testimonial";
 import { WhatTerresorcaDo } from "@/components/WhatTerresorcaDo";
 import {Navbar} from "@/components/Navbar";
 import { MacbookScrollDemo } from "@/components/macbook-scroll";
-import { Foooter } from "@/components/footer";
+import { Footer } from "@/components/footer";
 
 
 
@@ -27,7 +27,7 @@ export default function Home() {
       <Percentage15/>
       <Contact/>
 
-      <Foooter/>
+      <Footer/>
       
       
       
