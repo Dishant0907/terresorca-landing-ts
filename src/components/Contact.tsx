@@ -14,7 +14,7 @@ export const Contact = () => {
     try {
         alert("Thanks, for reaching out to us. we will connect shortly")
         console.log(email)
-      // const response = await axios.post('https://formspree.io/f/xjvnrzkj', { email, phone });
+      const response = await axios.post('https://formspree.io/f/xjvnrzkj', { email, phone });
       // console.log('Form submitted successfully:', response.data);
       // Optionally, you can do something after successful form submission
     } catch (error) {
