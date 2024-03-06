@@ -4,7 +4,7 @@
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { SparklesCore } from "./ui/sparkles";
 
-const words ="Fueling Growth: Let's Sprout Success, Sharing upto 20%"
+const words ="Fueling Growth: Let's Sprout Success, Sharing upto 20c%"
 export const Percentage15 = () => {
     return(
         <div className="relative flex flex-col items-center p-8 justify-center border-2 border-gray-900 my-[3rem] mx-[1rem] rounded-lg">
