@@ -10,13 +10,23 @@ export const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault(); // Prevent default form submission
-    console.log('Form submitted successfully:', e);
+
+    if(!email || !phone ){
+      alert("Please Enter the Form")
+    }
+    
     try {
-        alert("Thanks, for reaching out to us. we will connect shortly")
-        console.log(email)
+      
       const response = await axios.post('https://formspree.io/f/xjvnrzkj', { email, phone });
       // console.log('Form submitted successfully:', response.data);
       // Optionally, you can do something after successful form submission
+      if(response.data.ok === true){
+        alert("Thanks,for reaching out to us. we will connect shortly")
+        
+      }
+      else{
+        alert("Something went wrong. Please reload the website")
+      }
     } catch (error) {
       console.error('There was an error submitting the form:', error);
     }
@@ -50,13 +60,13 @@ export const Contact = () => {
           />
           <input
             type="text"
-            placeholder="91-8750896040"
+            placeholder="+91 8744048768"
             name="phone"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className="rounded-lg border border-neutral-800 mb-4 focus:ring-2 focus:ring-teal-500 p-4 w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
           />
-          <button type="submit"  className="bg-black border border-gray-500 w-full hover:bg-gray-900 p-4  rounded-md"  >Contact</button>
+          <button type="submit"  className="bg-black border border-gray-500 w-full hover:bg-gray-900 p-4 text-white rounded-md"  >Contact</button>
         </form>
 
         

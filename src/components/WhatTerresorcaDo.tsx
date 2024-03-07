@@ -38,9 +38,9 @@ export const WhatTerresorcaDo = () => {
 
       <div className="flex justify-center ">
 
-      <h2 className="text-3xl mx-2 font-bold text-center mb-[4rem]" >What </h2>
+      <h2 className="text-3xl mx-2 font-bold text-white text-center mb-[4rem]" >What </h2>
       <h2 className="text-3xl mx-2 text-[#FF0000] font-bold text-center mb-[4rem]" >Terresorca </h2>
-      <h2 className="text-3xl  mx-2 font-bold text-center mb-[4rem]" >  Do ? </h2>
+      <h2 className="text-3xl  mx-2 font-bold text-white text-center mb-[4rem]" >  Do ? </h2>
 
 
       
@@ -48,7 +48,7 @@ export const WhatTerresorcaDo = () => {
       <div className=" mx-[2.1rem] grid grid-cols-1 md:mx-auto   sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3  lg:gap-2 justify-center gap-8">
         {services.map((service, key) => (
           <div className="w-[20rem] mx-2"  key={key}>
-            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 h-[14rem] sm:p-10 bg-white dark:bg-zinc-900">
+            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 h-[14rem] sm:p-10  bg-zinc-900">
               {/* Uncomment the Image component if needed */}
               {/* <Image4
                 src={`/jordans.webp`}
@@ -57,10 +57,10 @@ export const WhatTerresorcaDo = () => {
                 width="400"
                 className="object-contain"
               /> */}
-              <p className="text-base sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
+              <p className="text-base sm:text-xl  mt-4 mb-2 text-neutral-200">
                 {service.title}
               </p>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              <p className="text-sm  text-neutral-400">
                 {service.description}
               </p>
             </BackgroundGradient>

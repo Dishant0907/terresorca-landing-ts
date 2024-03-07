@@ -9,7 +9,7 @@ const phoneNumber ="+918744048768"
 export const Footer = () => {
   return (
     <footer className="w-full bg-black    dark:bg-black">
-      <div className=" flex flex-col items-center justify-center gap-2 px-1 text-center md:gap-8 md:px-6 lg:flex-row lg:justify-between xl:gap-10">
+      <div className=" flex flex-col  items-center justify-center gap-2 px-1 text-center md:gap-8 md:px-6 lg:flex-row lg:justify-between xl:gap-10">
         <div className="flex flex-col gap-2 items-center lg:items-center lg:gap-1 lg:order-2">
           <p className=" text-2xl text-whtie font-bold  mx-auto mb-[1rem]  dark:text-gray-200 ">We are Social</p>
           <div className="flex items-center justify-center  space-x-4 lg:space-x-2 lg:order-1">
@@ -20,13 +20,13 @@ export const Footer = () => {
               </div>
             </Link> */}
             <Link href="https://www.linkedin.com/company/terresorca/" target="_blank">
-              <div className="text-gray-200 rounded-full dark:text-blue-200">
+              <div className=" rounded-full text-blue-200">
                 <span className="sr-only">Linkedin</span>
                 <LinkedinIcon className="w-4 h-4" />
               </div>
             </Link>
             <Link href="https://www.instagram.com/terresorca?igsh=MXc3Mm15amd3Z2oxdQ==" target="_blank">
-              <div className="text-gray-200 rounded-full dark:text-pink-500">
+              <div className=" rounded-full text-pink-500">
                 <span className="sr-only">Instagram</span>
                 <InstagramIcon className="w-4 h-4" />
               </div>
@@ -63,12 +63,12 @@ export const Footer = () => {
         <div className="flex items-center justify-center space-x-4 lg:order-2 lg:justify-end lg:space-x-2">
           <Link href="#">
             <div className="text-gray-200 underline underline-offset-2 dark:text-gray-800">
-              Terms
+              
             </div>
           </Link>
           <Link href="#">
             <div className="text-gray-200 underline underline-offset-2 dark:text-gray-800">
-              Privacy
+              
             </div>
           </Link>
         </div>

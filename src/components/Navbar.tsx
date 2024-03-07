@@ -15,7 +15,7 @@ export const Navbar = ({ className }: { className?: string }) => {
 
       <Menu setActive={setActive}>
         <Link href="/"><div className="flex">
-          <div className="text-base font-bold ">TERRES</div>
+          <div className="text-base text-white font-bold ">TERRES</div>
           <div className="      ">
             <span className="text-white font-bold text-base bg-red-800 ">ORCA</span>
           </div>
