@@ -24,7 +24,7 @@ export const Percentage15 = () => {
 
             <TextGenerateEffect words={words}/>
 
-            <Link className="mt-[5rem]" href="https://drive.google.com/file/d/1DtvFyMxmKxxWyZ8VuCQ2L_uBKISjB2mN/view?usp=drivesdk" target="_blank">
+            <Link className="mt-[5rem]" href="https://drive.google.com/file/d/1LScQ5MvCj9fgeRlVAalDMmVeQmiWUUoc/view?usp=drivesdk" target="_blank">
         <Button
           borderRadius="1.75rem"
           className="  bg-slate-900 text-white border-slate-800"
