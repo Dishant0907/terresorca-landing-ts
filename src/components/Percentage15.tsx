@@ -3,6 +3,8 @@
 
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import { SparklesCore } from "./ui/sparkles";
+import { Button } from "@/components/ui/moving-border";
+import Link from "next/link"
 
 const words ="Fueling Growth: Let's Sprout Success, Sharing upto 20%"
 export const Percentage15 = () => {
@@ -21,6 +23,21 @@ export const Percentage15 = () => {
              </div>
 
             <TextGenerateEffect words={words}/>
+
+            <Link className="mt-[5rem]" href="https://drive.google.com/file/d/1DtvFyMxmKxxWyZ8VuCQ2L_uBKISjB2mN/view?usp=drivesdk" target="_blank">
+        <Button
+          borderRadius="1.75rem"
+          className="  bg-slate-900 text-white border-slate-800"
+        >
+          Pricing
+        </Button>
+
+        
+
+
+      </Link>
+
+
 
         </div>
 
