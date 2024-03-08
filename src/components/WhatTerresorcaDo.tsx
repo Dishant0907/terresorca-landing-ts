@@ -45,10 +45,10 @@ export const WhatTerresorcaDo = () => {
 
       
       </div>
-      <div className=" mx-[2.1rem] grid grid-cols-1 md:mx-auto   sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3  lg:gap-2 justify-center gap-8">
+        <div className=" w-full mx-auto  px-auto  grid grid-cols-1 gap-8 md:mx-auto   sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-3 md:gap-6  lg:gap-6 ">
         {services.map((service, key) => (
-          <div className="w-[20rem] mx-2"  key={key}>
-            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 h-[14rem] sm:p-10  bg-zinc-900">
+          <div className="w-[20rem] mx-auto "  key={key}>
+            <BackgroundGradient className="rounded-[22px] max-w-sm p-4 h-[14rem]   bg-zinc-900">
               {/* Uncomment the Image component if needed */}
               {/* <Image4
                 src={`/jordans.webp`}

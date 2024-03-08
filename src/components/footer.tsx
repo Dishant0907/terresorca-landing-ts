@@ -44,9 +44,9 @@ export const Footer = () => {
               Spread the Word, Get Rewarded!
             </div>
           </Link>
-          <Link href="#">
+          <Link href="https://drive.google.com/file/d/1LScQ5MvCj9fgeRlVAalDMmVeQmiWUUoc/view?usp=drivesdk" target='_blank'>
             <div className="text-gray-200 transition-colors hover:underline dark:text-gray-400 hover:text-gray-50">
-              
+              Pricing
             </div>
           </Link>
           <Link  href={`tel:${phoneNumber}`}>
