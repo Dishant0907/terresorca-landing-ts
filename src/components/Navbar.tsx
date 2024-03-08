@@ -5,6 +5,7 @@ import { cn } from "@/utils/cn";
 import Link from "next/link";
 
 
+
 export const Navbar = ({ className }: { className?: string }) => {
   const [active, setActive] = useState<string | null>(null);
   return (
@@ -20,6 +21,8 @@ export const Navbar = ({ className }: { className?: string }) => {
             <span className="text-white font-bold text-base bg-red-800 ">ORCA</span>
           </div>
         </div></Link>
+
+        
 
 
       </Menu>

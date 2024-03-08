@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import {Navbar} from "@/components/Navbar";
+import { GoogleAnalytics } from '@next/third-parties/google'
+// import { WhatsappButton } from "@/components/WhatsappButton";
 
 
 
@@ -25,10 +27,12 @@ export default function RootLayout({
 
         <div className="relative w-full flex items-center justify-center">
         <Navbar/>
+        {/* <WhatsappButton/> */}
 
         </div>
         {children}
       </body>
+      <GoogleAnalytics gaId="G-5TGJ7ZGHPS" />
     </html>
   );
 }
