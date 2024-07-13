@@ -7,6 +7,10 @@ import { WhatTerresorcaDo } from "@/components/WhatTerresorcaDo";
 import {Navbar} from "@/components/Navbar";
 import { MacbookScrollDemo } from "@/components/macbook-scroll";
 import { Footer } from "@/components/footer";
+import { Mediator } from "@/components/mediator";
+import { Pctestimonial } from "@/components/Pc-testimonial";
+import { Pricing } from "@/components/pricing";
+import { BentoGridDo } from "@/components/BentoGrid";
 
 
 
@@ -19,12 +23,15 @@ export default function Home() {
       {/* <h1 className="text-2xl <Navbar/>text-center">billi with billa</h1> */}
       <Navbar/>
       <HeroSection/>
-      
+      <BentoGridDo/>
+      <Mediator/>
+      <Pricing/>
+      <Pctestimonial/>
       <Testimonial/>
-      <WhatTerresorcaDo/>
+      {/* <WhatTerresorcaDo/> */}
       <Partner/>
       
-      <Percentage15/>
+      {/* <Percentage15/> */}
       <Contact/>
 
       <Footer/>

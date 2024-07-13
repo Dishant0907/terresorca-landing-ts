@@ -66,7 +66,7 @@ export const HeroSection = () => {
           className="-top-40 left-0 md:left-80 md:-top-20 sm-android:-top-2"
           fill="red"
         />
-        <h1 className="mt-[14rem]   md:mt-[22rem] ml[7rem] text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Unleash the <span className="text-red-800 "> Potential</span> of your Brand</h1>
+        <h1 className="mt-[14rem]   md:mt-[22rem] ml[7rem] text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">Unleash the <span className="text-red-600 "> Potential</span> of your Brand</h1>
 
         {/* <div className="mt-[23rem] md:mt-[22rem]  sm-android:m-9 sm-android:mt-[8rem]   text-4xl md:text-7xl font-bold  text-center flex justify-center  text-transparent  ">
         <TypewriterEffectSmooth  words={words} />
@@ -74,7 +74,7 @@ export const HeroSection = () => {
         </div> */}
        
         
-        <p className="mt-4 font-normal mx-8 text-base md:text-lg  md:mx-auto text-neutral-500 max-w-lg ">Partner with Terresorca and Boost Your Online Sales with Our Low Fees!
+        <p className="mt-4 font-normal mx-8 text-base md:text-lg  md:mx-auto text-neutral-300 max-w-lg ">We handle your <span className="font-bold text-red-600">online sales</span> while you focus on sourcing and offline distribution.
 
 </p>
 

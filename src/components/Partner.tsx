@@ -48,7 +48,7 @@ export const Partner = () => {
   return (
 
     <>
-    <h2 className='text-3xl font-bold text-center text-white mt-[7rem]'>Our Partners</h2>
+    <h2 className='text-3xl font-bold text-center text-white mt-[4rem]'>Our <span className='text-red-600'>Partners</span></h2>
     <div className='m-[2rem]  flex justify-center'>
         <InfiniteMovingCards
         items={brands}
