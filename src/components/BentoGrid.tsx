@@ -311,7 +311,7 @@ const SkeletonFive = () => {
           className="rounded-full h-10 w-10"
         />
         <p className="text-xs text-neutral-500">
-          I'd love to help you elevate your brand. Can you tell me a bit about your business and what you're aiming to achieve?
+          I would love to help you elevate your brand. Can you tell me a bit about your business and what you are aiming to achieve?
         </p>
       </motion.div>
       <motion.div
@@ -340,7 +340,7 @@ const items = [
     title: "Performance Analytics",
     description: (
       <span className="text-sm">
-       Track your sales, monitor your product's performance, and make data-driven decisions to enhance your online presence.
+       Track your sales, monitor your product&apos;s performance, and make data-driven decisions to enhance your online presence.
       </span>
     ),
     header: <SkeletonTwo />,
@@ -376,7 +376,7 @@ const items = [
     title: "Customized Branding Strategies",
     description: (
       <span className="text-sm">
-        We'll work with you to develop branding strategies tailored to your unique products and target audience.
+        We&apos;ll work with you to develop branding strategies tailored to your unique products and target audience.
       </span>
     ),
     header: <SkeletonFive />,
