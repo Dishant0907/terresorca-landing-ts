@@ -26,7 +26,7 @@ export function BentoGridDo() {
 
 
 </div>
-<BentoGrid className="md:max-w-7xl   mx-auto md:auto-rows-[20rem]">
+<BentoGrid className="md:max-w-7xl mx-4   md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
