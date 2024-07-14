@@ -11,6 +11,7 @@ import { Mediator } from "@/components/mediator";
 import { Pctestimonial } from "@/components/Pc-testimonial";
 import { Pricing } from "@/components/pricing";
 import { BentoGridDo } from "@/components/BentoGrid";
+import { ScrollingText } from "@/components/ScorllingText";
 
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Navbar/>
       <HeroSection/>
       <BentoGridDo/>
+      <ScrollingText/>
       <Mediator/>
       <Pricing/>
       <Pctestimonial/>
