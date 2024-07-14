@@ -18,8 +18,8 @@ export function Pricing() {
     return (
 
         <>
-<div className=" mt-[5rem] ">
-<p className="md:text-7xl text-3xl  flex-wrap    text-white font-bold flex justify-center">No <span className="text-red-600 mx-3"> Hidden</span> Charges!,  Just it</p>
+<div className=" mt-[5rem] md:mt-[9rem] ">
+<p className="md:text-5xl text-3xl  flex-wrap    text-white font-bold flex justify-center">No <span className="text-red-600 mx-3"> Hidden</span> Charges!,  Just it</p>
 </div>        
         <section className="md:w-[25rem] w-[20rem] flex md:my-[9rem] my-[2rem] mx-auto   backdrop-blur-lg ">
             <ShineBorder

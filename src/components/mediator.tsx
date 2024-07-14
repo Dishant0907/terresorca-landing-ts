@@ -37,7 +37,7 @@ export function Mediator() {
   return (
     <>
 
-      <div className=" px-2 mt-[5rem] ">
+      <div className=" px-2 md:mt-[7rem] md:mb-[3rem] mt-[5rem] ">
         <p className="text-white  flex-wrap text-3xl  md:text-5xl flex justify-center font-bold">Bridging the <span className="text-red-600 mx-3">Gap</span> Between <span className="text-red-600 mx-3  ">You</span> and <span className="text-red-600 mx-3 ">Online Sales</span>
 
         </p>
@@ -46,7 +46,7 @@ export function Mediator() {
 
 
       <div
-        className="relative mb-16 mt-[1rem] flex w-full max-w-[800px] mx-auto items-center justify-center overflow-hidden rounded-lg  bg-background p-10 md:shadow-xl"
+        className="relative md:mb-[7rem] mb-16 mt-[1rem] flex w-full max-w-[800px] mx-auto items-center justify-center overflow-hidden rounded-lg  bg-background p-10 md:shadow-xl"
         ref={containerRef}
       >
         <div className="flex h-full w-full flex-col items-stretch justify-between gap-10">
@@ -58,7 +58,7 @@ export function Mediator() {
               <Icons.user1 />
             </Circle>
           </div>
-          <div className="flex flex-row items-center justify-between">
+          <div className="flex  flex-row items-center justify-between">
             <Circle ref={div2Ref}>
               <Icons.myntra />
             </Circle>

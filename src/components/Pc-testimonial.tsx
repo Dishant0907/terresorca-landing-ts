@@ -20,8 +20,8 @@ const testimonials = [
 export const Pctestimonial = () => {
     return (
         <div className="h-[40rem] hidden md:block rounded-md flex flex-col antialiased bg-black  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
-            <h2 className="text-3xl font-bold text-center mb-8">Hear our Harmony: Voices of success</h2>
-            <div className="flex justify-center w-full overflow-hidden pz-4 sm:pz-6 lg:px-8">
+ <h2 className="text-5xl  mx-[30rem] flex flex-wrap  font-bold text-center mt-[6rem] mb-8">Hear our Harmony: <span className="text-red-600">Voices of success</span></h2>
+             <div className="flex justify-center w-full overflow-hidden pz-4 sm:pz-6 lg:px-8">
             <InfiniteMovingCards
           items={testimonials}
           direction="right"
