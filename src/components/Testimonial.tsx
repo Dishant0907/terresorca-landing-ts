@@ -38,16 +38,16 @@ const ReviewCard = ({
         // light styles
         "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
         // dark styles
-        "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
+        "border-gray-50/[.1] bg-gray-50/[.10] hover:bg-gray-50/[.15]",
       )}
     >
       <div className="flex flex-row items-center gap-2">
         <img className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
-          <figcaption className="text-sm font-medium dark:text-white">
+          <figcaption className="text-sm font-medium text-white">
             {name}
           </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          <p className="text-xs font-medium text-white/40">{username}</p>
         </div>
       </div>
       <blockquote className="mt-2 text-sm">{body}</blockquote>
@@ -58,7 +58,7 @@ const ReviewCard = ({
 export const Testimonial = () => {
   return (
     <>
-            <h2 className="text-3xl md:hidden flex flex-wrap mx-[3.5rem] font-bold text-center mt-[6rem] mb-8">Hear our Harmony: <span className="text-red-600">Voices of success</span></h2>
+            <h2 className="text-3xl md:hidden flex flex-wrap mx-[3.5rem] text-white font-bold text-center mt-[6rem] mb-8">Hear our Harmony: <span className="text-red-600">Voices of success</span></h2>
     
     <div className="relative  md:hidden flex h-96 mt-[3rem] mb-[4rem]  flex-row items-center justify-center  rounded-lg  bg-black sm:px-20 md:shadow-xl">
       <Marquee pauseOnHover  className="[--duration:20s]">
