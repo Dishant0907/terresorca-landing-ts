@@ -60,7 +60,7 @@ export const Testimonial = () => {
     <>
             <h2 className="text-3xl md:hidden flex flex-wrap mx-[3.5rem] text-white font-bold text-center mt-[6rem] mb-8">Hear our Harmony: <span className="text-red-600">Voices of success</span></h2>
     
-    <div className="relative  md:hidden flex h-96 mt-[3rem] mb-[4rem]  flex-row items-center justify-center  rounded-lg  bg-black sm:px-20 md:shadow-xl">
+    <div className="relative  md:hidden flex h-96 mt-[3rem] mb-[4rem]  flex-row items-center justify-center  rounded-lg  text-gray-200 bg-black sm:px-20 md:shadow-xl">
       <Marquee pauseOnHover  className="[--duration:20s]">
         {firstRow.map((review) => (
           <ReviewCard key={review.username} {...review} />
