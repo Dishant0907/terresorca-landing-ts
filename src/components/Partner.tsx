@@ -14,26 +14,14 @@ const brands = [
       name: "Ankit Singh",
       title: "Founder at coverwala",
     },
-    {
-        imageUrl: "/drakt.png",
-      name: "Ankit Singh",
-      title: "Founder at coverwala",
-    },
+    
     {
         imageUrl: "/boute_belle.png",
       name: "Ankit Singh",
       title: "Founder at coverwala",
     },
-    {
-      imageUrl: "/twinkle.png",
-    name: "Ankit Singh",
-    title: "Founder at coverwala",
-  },
-  {
-    imageUrl: "/nk_craft.png",
-  name: "Ankit Singh",
-  title: "Founder at coverwala",
-},
+   
+  
 {
   imageUrl: "/techorca.png",
 name: "Ankit Singh",
