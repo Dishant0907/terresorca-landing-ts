@@ -42,7 +42,7 @@ export const Contact = () => {
     
     <div className="h-[33rem] w-full rounded-md bg-black relative flex flex-col items-center justify-center antialiased">
       <div className="max-w-2xl mx-auto p-4">
-        <h1 className="relative z-10 mb-8 text-3xl md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b text-white text-center font-sans font-bold">
+        <h1 className="relative text-3xl  z-10 mb-8 text md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b text-white text-center font-sans font-bold">
           Connect with Us
         </h1>
         
@@ -52,7 +52,7 @@ export const Contact = () => {
         <form onSubmit={handleSubmit} >
           <input
             type="email"
-            placeholder="hi@terresorca.com"
+            placeholder="contact@terresorca.in"
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
